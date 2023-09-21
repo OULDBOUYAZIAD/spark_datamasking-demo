@@ -2,7 +2,7 @@ import org.scalatest.funsuite.AnyFunSuite
 import tool.DataLoading
 import tool.implicits.DataFrameMaskingImplicits.DataFrameMaskingImplicits
 
-class DataFrameMaskingImplicits extends AnyFunSuite {
+class DataFrameMaskingImplicitsTest extends AnyFunSuite {
 
 
 
