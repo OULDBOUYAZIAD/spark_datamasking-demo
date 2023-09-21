@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.6 (Oracle Corporation Java 1.8.0_202)
+[debug] Load.defaultLoad until apply took 210.934166ms
+[debug]           Load.loadUnit: plugins took 82.516792ms
+[debug]           Load.loadUnit: defsScala took 0.249166ms
+[debug] [Loading] Scanning directory /Users/Ziad/IdeaProjects/spark_datamasking/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/Ziad/IdeaProjects/spark_datamasking/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 30.557292 ms
+[debug]               Load.resolveProject(spark_datamasking-build) took 50.666ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spark_datamasking-build, base: /Users/Ziad/IdeaProjects/spark_datamasking/project, plugins: List(<none>))) took 111.313ms
+[debug] [Loading] Done in /Users/Ziad/IdeaProjects/spark_datamasking/project, returning: (spark_datamasking-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 133.633917ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.80075ms
+[debug]         Load.loadUnit(file:/Users/Ziad/IdeaProjects/spark_datamasking/project/, ...) took 225.4065ms
+[debug]       Load.apply: load took 1217.238792ms
+[debug]       Load.apply: resolveProjects took 13.199875ms
+[debug]       Load.apply: finalTransforms took 110.555292ms
+[debug]       Load.apply: config.delegates took 8.83775ms
+[debug]       Load.apply: Def.make(settings)... took 1165.947125ms
+[debug]       Load.apply: structureIndex took 293.409792ms
+[debug]       Load.apply: mkStreams took 1.710708ms
+[info] loading project definition from /Users/Ziad/IdeaProjects/spark_datamasking/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4225.072708ms
+[debug]     Load.loadUnit: defsScala took 0.003292ms
+[debug] [Loading] Scanning directory /Users/Ziad/IdeaProjects/spark_datamasking
+[debug]       Load.loadUnit: mkEval took 13.0265ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 5.666708 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 7.749ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /Users/Ziad/IdeaProjects/spark_datamasking, plugins: List(<none>))) took 15.831042ms
+[debug] [Loading] Done in /Users/Ziad/IdeaProjects/spark_datamasking, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3103.807584ms
+[debug]     Load.loadUnit: cleanEvalClasses took 7.962417ms
+[debug]   Load.loadUnit(file:/Users/Ziad/IdeaProjects/spark_datamasking/, ...) took 7338.98ms
+[debug] Load.apply: load took 7359.848792ms
+[debug] Load.apply: resolveProjects took 0.219292ms
+[debug] Load.apply: finalTransforms took 26.491416ms
+[debug] Load.apply: config.delegates took 0.602667ms
+[debug] Load.apply: Def.make(settings)... took 474.948042ms
+[debug] Load.apply: structureIndex took 59.360041ms
+[debug] Load.apply: mkStreams took 0.005ms
+[info] set current project to spark_datamasking (in build file:/Users/Ziad/IdeaProjects/spark_datamasking/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/Ziad/.sbt/1.0/server/c0ce75698a1eebf6b190/sock
+[debug] Writing bsp connection file
+[info] started sbt server

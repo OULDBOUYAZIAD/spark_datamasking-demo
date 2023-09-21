@@ -1,0 +1,29 @@
+[
+  {
+    "policy": "cut",
+    "column": "email"
+  },
+  {
+    "policy": "drop",
+    "column": "name"
+  },
+  {
+    "policy": "group_year",
+    "column": "birth_date"
+  },
+  {
+    "policy": "hide_with_stars",
+    "column": "credit_card_number"
+  },
+  {
+    "policy": "hash",
+    "column": "phone_number"
+  }
+]
+
+
+
+
+
+
+
