@@ -21,7 +21,6 @@ object PolicyLoading {
     }
       catch{
         case e: Exception => throw e
-
       }
     finally {
       if (source != null) {
